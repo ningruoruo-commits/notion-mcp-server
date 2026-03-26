@@ -25,18 +25,6 @@
         "scheme": "basic"
       }
     },
-    "parameters": {
-      "notionVersion": {
-        "name": "Notion-Version",
-        "in": "header",
-        "required": false,
-        "schema": {
-          "type": "string",
-          "default": "2022-06-08"
-        },
-        "description": "The Notion API version"
-      }
-    },
     "schemas": {
       "richTextRequest": {
         "type": "object",
